@@ -131,7 +131,7 @@ for it in range(1000000):
 
         samples = sess.run(G_sample,
                            feed_dict={Z: Z_noise, c: c_noise})
-
+        
         #fig = plot(samples)
         #plt.savefig('out/{}.png'.format(str(i).zfill(3)), bbox_inches='tight')
         i += 1
